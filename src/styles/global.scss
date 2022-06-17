@@ -1,0 +1,18 @@
+/*默认样式*/
+$--font-size-normal: 14px;
+$--font-size-middle:16px;
+$--font-size-large:20px;
+
+.div0{
+    font-size: $--font-size-large;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .div1{
+        margin-bottom: 30px;
+    }
+}
